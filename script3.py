@@ -3,7 +3,7 @@ import sys
 
 def onMouse(event, x, y, flags, params):
     if event == cv.EVENT_LBUTTONDOWN:
-        print(x, y)
+        print(str(x) + "," + str(y))
 
 img = cv.imread(cv.samples.findFile("lena.jpeg"))
 if img is None:

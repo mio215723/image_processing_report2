@@ -2,4 +2,4 @@
 import pyautogui
 
 x, y = pyautogui.position()
-print("%d, %d\n", x, y)
+print(str(x) + "," + str(y))
